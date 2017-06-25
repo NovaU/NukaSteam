@@ -1,0 +1,35 @@
+@font-face {
+    font-family: OW;
+    src: url(big_noodle_titling.ttf);
+}
+
+.button {
+    font-size: 600%;
+    font-family: OW;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    background-color: #8ADCFF;
+    color: white;
+    height: 100px;
+    width: 250px;
+    padding: 0;
+    border: none;
+}
+
+.button:hover {
+    background-color: #8ADCFF;
+    color: orange;
+}
+.topContainer{
+  background-color: #8ADCFF;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+
+}
+#logo{
+height: 200px;
+}
+.left-btn{
+  padding-left: 50px;
+}
